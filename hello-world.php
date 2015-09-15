@@ -1,2 +1,3 @@
 <?php
-echo 'Hello world';
+echo htmlspecialchars('Hello world');
+include('code.php');
